@@ -1,0 +1,99 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Image responsiveness */
+.img-responsive {
+    max-width: 100%;
+}
+
+.hero-image {
+    background-image: url(images/heroimage.jpg);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 100vh;
+}
+
+.hero-wrapper {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-wrapper span {
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    display: inline-block;
+    margin-left: 4rem;
+
+}
+
+.hero-wrapper h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.main-form {
+    text-align: center;
+}
+
+.main-form .sub-form {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    padding: .6rem;
+    outline: none;
+
+}
+
+.main-form button {
+    width: 40%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgb(51, 201, 201);
+    color: white;
+    padding: .6rem;
+    margin-top: 12px;
+    border: none;
+    border-radius: .3rem;
+}
+
+
+/* Product Section */
+.Products {
+    width: 90%;
+    margin-top: .3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.product-list-item {
+    float: left;
+    width: 32%;
+    margin-left: 1rem;
+}
+
+.product-list-item:hover {
+    transition: 1s;
+    background-color: blueviolet;
+}
+
+.product-list-item:first-of-type {
+    margin-left: 0;
+}
+
+@media screen and (max-width:700px) {
+    .product-list-item {
+        width: 100%;
+    }
+
+}
